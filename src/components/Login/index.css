@@ -1,0 +1,112 @@
+.login-container {
+  background-color: black;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+.login-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+  border: 0px, 0px, 1px, 0px solid rgba(37, 38, 43, 1);
+}
+.login-website-logo {
+  height: 24px;
+  width: 157px;
+}
+.login-contents {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 89vh;
+}
+.content-box {
+  background-color: rgba(17, 18, 20, 1);
+  height: 312px;
+  width: 460px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login-heading {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 31px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.google-button {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.1px;
+  letter-spacing: -0.30000001192092896px;
+  text-align: center;
+  color: rgba(204, 204, 204, 1);
+  background-color: transparent;
+  border: 1px solid rgba(204, 204, 204, 1);
+  height: 48px;
+  width: 380px;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+.google {
+  height: 15px;
+  margin-right: 5px;
+}
+.create-button {
+  width: Hug (195px) px;
+  height: Hug (48px) px;
+  padding: 13px 35px 13px 35px;
+  gap: 10px;
+  border-radius: 5px;
+  opacity: 0px;
+  background-image: linear-gradient(
+    rgba(75, 99, 221, 1),
+    rgba(5, 36, 191, 0.99)
+  );
+  border: none;
+  color: rgba(255, 255, 255, 1);
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21.7px;
+  text-align: left;
+  margin-top: 30px;
+}
+.text-account {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24.8px;
+  text-align: center;
+  color: rgba(144, 146, 150, 1);
+}
+.sign-text {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24.8px;
+  text-align: center;
+  color: rgba(193, 194, 197, 1);
+}
+.login-footer {
+  height: 32px;
+  background-color: rgba(18, 18, 18, 1);
+  border: 1px, 0px, 0px, 0px solid rgba(37, 38, 43, 1);
+}
+.footer-text {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.6px;
+  text-align: center;
+  color: rgba(92, 95, 102, 1);
+  margin-top: 10px;
+}
